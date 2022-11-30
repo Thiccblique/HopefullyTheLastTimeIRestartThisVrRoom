@@ -6703,12 +6703,12 @@ PrefabInstance:
     - target: {fileID: 7595900128240888713, guid: e636f9595e23302488ae2257b902e05e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.697041
+      value: 3.703
       objectReference: {fileID: 0}
     - target: {fileID: 7595900128240888713, guid: e636f9595e23302488ae2257b902e05e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.4400859
+      value: -0.422
       objectReference: {fileID: 0}
     - target: {fileID: 7595900128240888713, guid: e636f9595e23302488ae2257b902e05e,
         type: 3}
@@ -7046,7 +7046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_System: {fileID: 1313711684}
   m_TurnAmount: 45
-  m_DebounceTime: 0
+  m_DebounceTime: 0.2
   m_EnableTurnLeftRight: 1
   m_EnableTurnAround: 1
   m_DelayTime: 0
