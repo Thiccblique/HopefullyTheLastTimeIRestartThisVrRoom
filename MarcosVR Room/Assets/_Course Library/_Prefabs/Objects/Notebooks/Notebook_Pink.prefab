@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8191743268188120485}
   - component: {fileID: 6008582152504935630}
   - component: {fileID: 1938349492994837382}
+  - component: {fileID: 6894874428337829088}
   m_Layer: 0
   m_Name: Notebook_Pink
   m_TagString: Untagged
@@ -29,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5890371768283866818}
   m_Father: {fileID: 0}
@@ -53,6 +55,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -96,6 +99,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15.115958, y: 1.5715606, z: 22.83352}
   m_Center: {x: -7.9879313, y: -0.34430286, z: -12.070168}
+--- !u!114 &6894874428337829088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3288322442485273172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cc93ae5984451438705553be9e661b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cover: {fileID: 0}
+  myHinge: {fileID: 0}
 --- !u!1 &5742439707705181056
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +142,7 @@ Transform:
   m_LocalRotation: {x: -0.00000008146031, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.07264768, y: 0.38, z: 0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2803956386683668718}
   m_RootOrder: 0
@@ -148,6 +166,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
